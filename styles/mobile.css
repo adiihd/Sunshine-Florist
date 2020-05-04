@@ -25,6 +25,10 @@ nav {
 }
 
 /* Main page */
+.mobile-buttons {
+  display: none;
+}
+
 .main {
   height: 95vh;
 }
@@ -58,7 +62,7 @@ nav {
   flex-wrap: wrap;
   width: auto;
   margin: auto;
-  margin-top: 1vh;
+  margin-top: -4vh;
   /* justify-content: center; */
 }
 
