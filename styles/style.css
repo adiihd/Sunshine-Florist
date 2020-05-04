@@ -9,6 +9,10 @@
 }
 
 /* General style */
+:root {
+  --text-color: #9B6456;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,7 +48,7 @@ nav {
 }
 
 .ul-left li:hover {
-  background-color: #9B6456;
+  background-color: var(--text-color);
 }
 
 .ul-right {
@@ -181,7 +185,7 @@ textarea {
 
 input:hover,
 textarea:hover {
-  border: 1px solid #9B6456;
+  border: 1px solid var(--text-color);
 }
 
 /* Button */
@@ -198,14 +202,15 @@ textarea:hover {
 }
 
 #submit-btn:hover {
-  background-color: #9B6456;
+  background-color: var(--text-color);
 }
 
 
-.map {
-  background: red;
-  width: 50%;
-  height: 100%px;
+#map {
+  height: 70%;
+  width: 30%;
+  margin: auto;
+  border: 10px rgba(155, 100, 86, 0.6) solid;
 }
 
 
