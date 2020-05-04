@@ -145,10 +145,68 @@ nav {
 /* Contact */
 .contact {
   background: #333 url("../img/contact-background.jpg") no-repeat center center/cover;
-  filter: brightness(70%);
+  /* filter: brightness(70%); */
   height: 70vh;
+  display: flex;
 }
 
+.contact-form {
+  /* background: white; */
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#flex-form {
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+
+textarea {}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid #9B6456;
+}
+
+/* Button */
+#submit-btn {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #9B6456;
+}
+
+
+.map {
+  background: red;
+  width: 50%;
+  height: 100%px;
+}
 
 
 /* Footer */
