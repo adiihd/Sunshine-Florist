@@ -16,6 +16,7 @@ nav {
   display: flex;
   padding: 0;
   margin-top: auto;
+  padding-right: 5px;
 }
 
 .ul-right li {
